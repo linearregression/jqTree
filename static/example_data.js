@@ -1,82 +1,153 @@
 var ExampleData = {};
 
 ExampleData.example_data = [
-    {
-        name: 'Saurischia',
-        id: 1,
-        children: [
-            {name: 'Herrerasaurians', id: 2},
-            {
-                name: 'Theropods',
-                id: 3,
-                children: [
-                    {name: 'Coelophysoids', id: 4},
-                    {name: 'Ceratosaurians', id: 5},
-                    {name: 'Spinosauroids', id: 6},
-                    {name: 'Carnosaurians', id: 7},
-                    {
-                        name: 'Coelurosaurians',
-                        id: 8,
-                        children: [
-                            {name: 'Tyrannosauroids', id: 9},
-                            {name: 'Ornithomimosaurians', id: 10},
-                            {name: 'Therizinosauroids', id: 11},
-                            {name: 'Oviraptorosaurians', id: 12},
-                            {name: 'Dromaeosaurids', id: 13},
-                            {name: 'Troodontids', id: 14},
-                            {name: 'Avialans', id: 15}
-                        ]
-                    }
-                ]
-            },
-            {
-                name: 'Sauropodomorphs',
-                id: 16,
-                children: [
-                    {name: 'Prosauropods', id: 17},
-                    {
-                        name: 'Sauropods',
-                        id: 18,
-                        children: [
-                            {name: 'Diplodocoids', id: 19},
-                            {
-                                name: 'Macronarians',
-                                id: 20,
-                                children: [
-                                    {name: 'Brachiosaurids', id: 21},
-                                    {name: 'Titanosaurians', id: 22}
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        name: 'Ornithischians',
-        id: 23,
-        children: [
-            {name: 'Heterodontosaurids', id: 24},
-            {
-                name: 'Thyreophorans',
-                id: 25,
-                children: [
-                    {name: 'Ankylosaurians', id: 26},
-                    {name: 'Stegosaurians', id: 27}
-                ]
-            },
-            {
-                name: 'Ornithopods',
-                id: 28,
-                children: [
-                    {name: 'Hadrosaurids', id: 29}
-                ]
-            },
-            {name: 'Pachycephalosaurians', id: 30},
-            {name: 'Ceratopsians', id: 31}
-        ]
-    }
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [],
+                    "title": "Scranton.Line #1.Wood Grinder A"
+                  }
+                ],
+                "title": "58581f2c252d131f8d308733"
+              }
+            ],
+            "title": "Wood Grinder A"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [],
+                    "title": "Scranton.Line #1.Pulp Oven A"
+                  }
+                ],
+                "title": "58581f2c252d131f8d308734"
+              }
+            ],
+            "title": "Pulp Oven A"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [],
+                    "title": "Scranton.Line #1.Pulp Bleacher A"
+                  }
+                ],
+                "title": "58581f2c252d131f8d308735"
+              }
+            ],
+            "title": "Pulp Bleacher A"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [],
+                    "title": "Scranton.Line #1.Paper Press A"
+                  }
+                ],
+                "title": "58581f2c252d131f8d308736"
+              }
+            ],
+            "title": "Paper Press A"
+          }
+        ],
+        "title": "Line #1"
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [],
+                    "title": "Scranton.Line #2.Wood Grinder B"
+                  }
+                ],
+                "title": "58581f2c252d131f8d308738"
+              }
+            ],
+            "title": "Wood Grinder B"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [],
+                    "title": "Scranton.Line #2.Pulp Oven B"
+                  }
+                ],
+                "title": "58581f2c252d131f8d308739"
+              }
+            ],
+            "title": "Pulp Oven B"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [],
+                    "title": "Scranton.Line #2.Pulp Bleacher B"
+                  }
+                ],
+                "title": "58581f2c252d131f8d30873a"
+              }
+            ],
+            "title": "Pulp Bleacher B"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [],
+                    "title": "Scranton.Line #2.Paper Press B"
+                  }
+                ],
+                "title": "58581f2c252d131f8d30873b"
+              }
+            ],
+            "title": "Paper Press B"
+          }
+        ],
+        "title": "Line #2"
+      },
+      {
+        "children": [],
+        "title": "Wood Grinder C"
+      },
+      {
+        "children": [],
+        "title": "Pulp Oven C"
+      },
+      {
+        "children": [],
+        "title": "Pulp Bleacher C"
+      },
+      {
+        "children": [],
+        "title": "Paper Press C"
+      }
+    ],
+    "title": "Scranton"
+  },
+  {
+    "children": [],
+    "title": "Utica"
+  }
 ];
 
 ExampleData.getFirstLevelData = function(nodes) {
